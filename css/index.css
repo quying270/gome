@@ -1,0 +1,299 @@
+@charset 'UTF-8';
+
+.gome{
+	width: 1200px;
+	height: 100%;
+}
+/*top common start*/
+.top{
+	width: 100%;
+	height: 30px;
+	padding: 0 350px;
+	line-height: 30px;
+	background-color: rgb(248,248,248);
+	color: rgb(136,136,136);
+}
+.content_dn{
+	display: none;
+}
+.top .t_left > ul > li:hover span, .top .t_right > ul > li:hover span{
+	background-color: #fff;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.top .t_left > ul > li:hover > span a, .top .t_left > ul > li:hover > a, .top .t_right > ul > li:hover > span a, .top .t_right > ul > li:hover > a{
+	color:red;
+}
+.top .t_left > ul li:hover i[class='arrow'], .top .t_right > ul li:hover i[class="arrow"]{
+	background-position: -58px -455px;
+}
+.top .t_left > ul li:hover .content_dn, .top .t_right > ul li:hover .content_dn{
+	display: block;
+}
+.top .t_left, .top .t_left > ul li, .top .t_right > ul li{
+	float: left;
+}
+.top .t_right{
+	float: right;
+}
+.top .t_left > ul>:first-child span, .top .t_right ul li > span{
+	display: inline-block;
+	/*width: 60px;*/
+	padding: 0 10px;	
+	border-left: 1px solid rgb(248,248,248);
+	border-right: 1px solid rgb(248,248,248);
+}
+.top .t_left > ul>:first-child a i[class='arrow'], .top .t_right ul li > span a i[class='arrow']{
+	display: inline-block;
+	width: 10px;
+	height: 5px;
+	margin-left: 2px;
+	vertical-align: middle;
+	background-image: url(../images/ui.png);
+	background-position: -58px -451px;
+}
+/*top common end*/
+/*top left start*/
+.top .t_left > ul li + li a{
+	margin-left: 10px;
+}
+.top .t_left > ul li + li a + a{
+	color: red;
+}
+.top .t_left > ul li + li a + a i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	vertical-align: middle;
+	background-image: url(../images/ui.png);
+	background-position: -144px 29px;
+}
+.top .t_left .user{
+	width: 290px;
+	height: 190px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+.top .t_left .user .user_name{
+	height: 80px;
+	border-bottom: 1px solid #eee;
+}
+.top .t_left .user .user_name i{
+	display: inline-block;
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin-top: 5px;
+	background: url(../images/ui.png) no-repeat;
+	background-position: 0 -337px;
+}
+.top .t_left .user .user_name p{
+	float: left;
+	margin-left: 20px;
+    line-height: 50px;
+}
+.top .t_left .user .user_name p a{
+	color:rgb(0,102,153);
+}
+
+.top .t_left .user .user_icon > p > a:hover{
+	color:red;
+}
+.top .t_left .user .user_icon .power{
+	width: 240px;
+	color: #ccc;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top .t_left .user .user_icon .power ul{
+	width: 800px;
+}
+.top .t_left .user .user_icon .power ul li{
+	float: left;
+	width: 80px;
+	height: 70px;
+	text-align: center;
+}
+.top .t_left .user .user_icon .power ul li a i{
+	display: inline-block;
+	width: 35px;
+	height: 38px;
+	float: left;
+	margin: 2px 24px;
+	background: url(../images/power.png) no-repeat;
+	background-position: -28px -25px;
+}
+.top .t_left .user .user_icon .power ul li:nth-child(2) a i{
+	background-position: -24px -62px;
+}
+.top .t_left .user .user_icon .power ul li:nth-child(3) a i{
+	background-position: -24px -104px;
+}
+.top .t_left .user .user_icon .power ul li a:hover i{
+	background-position: -65px -25px;
+}
+.top .t_left .user .user_icon .power ul li:nth-child(2) a:hover i{
+	background-position: -65px -62px;
+}
+.top .t_left .user .user_icon .power ul li:nth-child(3) a:hover i{
+	background-position: -65px -104px;
+}
+.top .t_left .user .user_icon .user_icon_btn p{
+	width: 17px;
+	height: 31px;
+	position: absolute;
+	top:50%;
+	margin-top: -5px;
+	background-image: url(../images/ui.png);
+}
+.top .t_left .user .user_icon .user_icon_btn .prev{
+	left: 0;
+	background-position: -60px -355px;
+}
+.top .t_left .user .user_icon .user_icon_btn .prev:hover{
+	background-position: -60px -512px;
+}
+.top .t_left .user .user_icon .user_icon_btn .next{
+	right: 0;
+	background-position: -75px -355px;
+}
+.top .t_left .user .user_icon .user_icon_btn .next:hover{
+	background-position: -75px -512px;
+}
+/*top left end*/
+
+/*top right start*/
+.top .t_right > ul > li > a{
+	display: inline-block;
+	padding: 0 10px;
+}
+.top .t_right ul li > span a .server, .top .t_right ul li > span a .phone{
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	/*margin-left: 5px;*/
+	margin-right: 3px;
+	vertical-align: middle;
+	background-image: url(../images/power.png);
+	background-position: -25px -335.5px;
+}
+.top .t_right ul li > span a .phone{
+	background-position: -41px -335.5px;
+}
+.top .t_right .my_gome{
+	width: 260px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	border: 1px solid #eee;
+}
+.top .t_right .my_gome .my_gome_login, .top .t_right .my_gome .my_gome_coupon{
+	padding: 10px 10px 0;
+}
+.top .t_right .my_gome .my_gome_login p{
+	font-weight: bold;
+}
+.top .t_right .my_gome .my_gome_login p a{
+	color: rgb(0,102,153);
+}
+.top .t_right .my_gome .my_gome_login ul{
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px solid #eee;
+}
+.top .t_right .my_gome .my_gome_login ul li{
+	width: 120px;
+	height: 20px;
+}
+.top .t_right .my_gome .my_gome_coupon ul li{
+	width: 60px;
+	height: 49px;
+	text-align: center;
+}
+.top .t_right .my_gome .my_gome_coupon ul li a{
+	display: inline-block;
+	width: 60px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 10px;
+	border-left: 1px solid #eee;
+}
+.top .t_right .my_gome .my_gome_coupon ul li:nth-child(1) a{
+	border: none;
+}
+.top .t_right .my_gome .my_gome_coupon ul li a + p{
+	height: 10px;
+	line-height: 10px;
+	color: #ccc;
+}
+.top .t_right .my_gome .my_gome_login ul li a:hover, .top .t_right .my_gome .my_gome_coupon ul li a:hover{
+	color: red;
+}
+.top .t_right .my_gome .my_gome_foot_print{
+	height: 90px;
+	padding: 0 10px;
+	background-color: rgb(248,248,248);
+}
+.top .t_right .my_gome .my_gome_foot_print ul li{
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	margin-right: 10px;
+	background-image: url(../images/ui.png);
+	background-position: -55px -749px;
+}
+
+.top .t_right .server_core{
+	width: 210px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	border: 1px solid #eee;
+	padding: 10px;
+	line-height: 25px;
+}
+.top .t_right .server_core .title{
+	font-weight: bold;
+}
+.top .t_right .server_core .server_help{
+	margin-top: 10px;
+}
+.top .t_right .server_core p a{
+	display: inline-block;
+	width: 65px;
+}
+.top .t_right .server_core p a:hover{
+	color: red;
+}
+.top .t_right .server_core > a{
+	display: inline-block;
+	width: 210px;
+	height: 25px;
+	background-color: #DD00A7;
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;
+}
+.top .t_right .phone_gome{
+	width: 135px;
+	height: 175px;
+	padding: 15px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	border: 1px solid #eee;
+/*	background-image: url(../images/ui.png);
+	background-position: 16px -783px;*/
+}
+.top .t_right .phone_gome a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/ui.png);
+	background-position: 3px -795px;
+}
+/*top right end*/
