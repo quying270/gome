@@ -5,6 +5,7 @@ ul,ol,dl{margin:0;padding:0;list-style:none;}
 img{border:none;vertical-align:middle;}
 a{text-decoration:none;color:inherit;outline:none;}
 body{background-color: #fff; font:12px/1.5 'Microsoft Yahei',sans-serif;/*sans-serif 是手机默认字体*/}
+input, select{outline: none; }
 
 /*---------------------------------------
 				 font 

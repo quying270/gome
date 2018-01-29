@@ -9,7 +9,7 @@
 	height: 100%;
 	margin: 0 auto;
 }
-
+/*top start*/
 /*top common start*/
 .top{
 	/*width: 100%;*/
@@ -26,6 +26,7 @@
 	position: absolute;
 	top: 30px;
 	border: 1px solid #eee;
+	background-color: #fff;
 }
 .top .t_left > ul > li:hover span, .top .t_right > ul > li:hover span{
 	background-color: #fff;
@@ -330,3 +331,88 @@
 	background-position: 3px -795px;
 }
 /*top right end*/
+/*top end*/
+/*head start*/
+.head{
+	height: 120px;
+}
+.head .h_logo{
+	float: left;
+	margin: 32px 10px 0 0;
+}
+.head .h_logo a{
+	display: inline-block;
+	width: 125px;
+	height: 56px;
+	background-image: url(../images/logo.png);
+}
+.head .h_logo_desc{
+	float: left;
+	margin: 35px 0 0 10px;
+}
+.head .h_logo_desc a{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-image: url(../images/logo_desc.gif);
+}
+.head .h_search{
+	float: left;
+	margin-top: 34px;
+    margin-left: 10%;
+}
+.head .h_search form{
+	font-size: 0px;
+}
+
+.head .h_search select{
+	width: 64px;
+    height: 32px;
+    padding: 0 5px;
+    border: 1px solid #DD00A7;
+    border-right: none;
+    vertical-align: middle;
+}
+
+.head .h_search input[type="text"]{
+	width: 345px;
+	height: 30px;
+	padding: 0 10px;
+	border:1px solid #DD00A7;
+	vertical-align: middle;
+}
+.head .h_search button{
+	width: 90px;
+	height: 32px;
+	padding: 0 10px;
+	background-color: #DD00A7;
+	vertical-align: middle;
+	border:1px solid #DD00A7;
+	font-size: 16px;
+	color: #fff;
+}
+.head .h_search .search_voice{
+	width: 14px;
+	height: 30px;
+	position: absolute;
+	top: 6px;
+	right: 95px;
+	background: url("../images/search_voice.png") no-repeat;
+	background-size: 14px 20px;
+	opacity: 0.55;
+}
+.head .h_search .search_tips{
+	padding-top: 5px;
+}
+.head .h_search .search_tips a{
+	padding-right: 5px;
+	color: rgb(136,136,136);
+}
+.head .h_search .search_tips a:hover{
+	color: red;
+}
+.head .h_search .search_tips a:nth-child(1){
+	color: red;
+}
+
+/*head end*/
