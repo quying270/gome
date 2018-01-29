@@ -1,20 +1,31 @@
 @charset 'UTF-8';
 
 .gome{
-	width: 1200px;
+	width: 100%;
 	height: 100%;
 }
+.gome_box{	
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
 /*top common start*/
 .top{
-	width: 100%;
+	/*width: 100%;*/
 	height: 30px;
-	padding: 0 350px;
 	line-height: 30px;
 	background-color: rgb(248,248,248);
 	color: rgb(136,136,136);
+	border-bottom: 1px solid #eee;
 }
 .content_dn{
 	display: none;
+}
+.top_down_pos_a{
+	position: absolute;
+	top: 30px;
+	border: 1px solid #eee;
 }
 .top .t_left > ul > li:hover span, .top .t_right > ul > li:hover span{
 	background-color: #fff;
@@ -30,7 +41,7 @@
 .top .t_left > ul li:hover .content_dn, .top .t_right > ul li:hover .content_dn{
 	display: block;
 }
-.top .t_left, .top .t_left > ul li, .top .t_right > ul li{
+.top .t_left, .top .t_left > ul > li, .top .t_right > ul > li{
 	float: left;
 }
 .top .t_right{
@@ -72,11 +83,8 @@
 .top .t_left .user{
 	width: 290px;
 	height: 190px;
-	position: absolute;
-	top: 30px;
+	padding: 10px;	
 	left: 0;
-	padding: 10px;
-	border: 1px solid #eee;
 }
 .top .t_left .user .user_name{
 	height: 80px;
@@ -171,25 +179,13 @@
 	display: inline-block;
 	padding: 0 10px;
 }
-.top .t_right ul li > span a .server, .top .t_right ul li > span a .phone{
-	display: inline-block;
-	width: 15px;
-	height: 13px;
-	/*margin-left: 5px;*/
+.top .t_right ul li > span a .iconfont{
+	color: #DD00A7;
 	margin-right: 3px;
-	vertical-align: middle;
-	background-image: url(../images/power.png);
-	background-position: -25px -335.5px;
-}
-.top .t_right ul li > span a .phone{
-	background-position: -41px -335.5px;
 }
 .top .t_right .my_gome{
 	width: 260px;
-	position: absolute;
-	top: 30px;
 	left: 0;
-	border: 1px solid #eee;
 }
 .top .t_right .my_gome .my_gome_login, .top .t_right .my_gome .my_gome_coupon{
 	padding: 10px 10px 0;
@@ -208,10 +204,12 @@
 .top .t_right .my_gome .my_gome_login ul li{
 	width: 120px;
 	height: 20px;
+	float: left;
 }
 .top .t_right .my_gome .my_gome_coupon ul li{
 	width: 60px;
 	height: 49px;
+	float: left;
 	text-align: center;
 }
 .top .t_right .my_gome .my_gome_coupon ul li a{
@@ -241,20 +239,18 @@
 .top .t_right .my_gome .my_gome_foot_print ul li{
 	width: 50px;
 	height: 50px;
+	float: left;
 	background-color: #fff;
 	margin-right: 10px;
 	background-image: url(../images/ui.png);
-	background-position: -55px -749px;
+	background-position: -3px -396px;
 }
 
 .top .t_right .server_core{
 	width: 210px;
-	position: absolute;
-	top: 30px;
-	left: 0;
-	border: 1px solid #eee;
 	padding: 10px;
 	line-height: 25px;
+	left: 0;
 }
 .top .t_right .server_core .title{
 	font-weight: bold;
@@ -278,14 +274,51 @@
 	text-align: center;
 	margin-top: 15px;
 }
+.top .t_right .url_nav{
+	width: 1158px;
+	height: 230px;
+	right: -100px;
+	padding: 10px 20px;
+}
+.top .t_right .url_nav dl{
+	float: left;
+	padding: 0 25px;
+	border-left: 1px solid #eee;
+}
+.top .t_right .url_nav dl:nth-child(1){
+	border:none;
+}
+.top .t_right .url_nav dl dt{
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #000;
+}
+.top .t_right .url_nav dl dd ul{
+	float: left;
+}
+.top .t_right .url_nav dl dd ul li{
+	width: 75px;
+	height: 24px;
+	line-height: 24px;
+}
+.top .t_right .url_nav dl dd ul li a:hover{
+	color: red
+}
+.top .t_right .url_nav dl dd ul li a + .hot_r, .top .t_right .url_nav dl dd ul li a + .hot_g{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-image: url(../images/ui.png);
+	background-position: 2px -452px;
+}
+.top .t_right .url_nav dl dd ul li a + .hot_g{
+	background-position: -16px -452px;
+}
 .top .t_right .phone_gome{
 	width: 135px;
 	height: 175px;
 	padding: 15px;
-	position: absolute;
-	top: 30px;
 	right: 0;
-	border: 1px solid #eee;
 /*	background-image: url(../images/ui.png);
 	background-position: 16px -783px;*/
 }
