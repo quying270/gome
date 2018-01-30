@@ -1,18 +1,20 @@
 @charset 'UTF-8';
 /*body start*/
 .body{
-	height: 41px;
-	line-height: 41px;
 	background-color: rgb(248,248,248);
 }
 /*body title start*/
 .body_title{
 	font-size: 15px;
+	height: 41px;
+	line-height: 41px;
 }
 /*body title left start*/
 .body_title_left_nav{
 	float: left;
 	width: 200px;
+	position: relative;
+	z-index: 3;
 }
 .body_title_left_nav > h4{
 	height: 40px;
@@ -31,6 +33,10 @@
 .body_title_left_nav_list li{
 	height: 30px;
 	line-height: 30px;
+}
+.body_title_left_nav_list li a{
+	margin-right: 1px;
+    font-weight: lighter;
 }
 /*body title left end*/
 /*body title middle start*/
@@ -130,14 +136,6 @@
 	top: 0;
 	left: 20px;
 }
-.body_main_right{
-	width: 250px;
-	height: 450px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	/*background-color: red;*/
-}
 .body_main_banner_arrow_left, .body_main_banner_arrow_right{
 	width: 40px;
 	height: 80px;
@@ -187,6 +185,83 @@
 }
 .body_main_banner_btn li a:hover{
 	background-color: red;
+}
+.body_main_right{
+	width: 250px;
+	height: 420px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: rgb(136,136,136);
+	padding: 15px 0;
+}
+.body_main_right_msg{
+	padding-bottom: 5px;
+	padding: 0 15px;
+}
+.body_main_right_msg_title h3 {
+	float: left;
+	color: #000;
+	font-weight: normal;
+	margin: 5px 0;
+}
+.body_main_right_msg_title a {
+	float: right;
+}
+.body_main_right_msg_title a:hover {
+	color: red;
+}
+.body_main_right_msg_title a  i{
+	display: inline-block;
+	width: 5px;
+    height: 9px;
+    margin-left: 4px;
+    background: url(../images/ui1.png) -126px -130px no-repeat;
+}
+.body_main_right_msg_content{
+	padding-bottom: 5px;
+	border-bottom: 1px dotted rgb(136,136,136);
+}
+.body_main_right_msg_content p{
+	height: 26px;
+	line-height: 26px;
+}
+.body_main_right_msg_content p a + a{
+	margin-left: 7px;
+}
+.body_main_right_msg_content p a:hover{
+	color:red;
+}
+.body_main_right_box{
+	padding: 7px 15px;
+}
+.body_main_right_box li{
+	float: left;
+	text-align: center;
+}
+.body_main_right_box a{
+	display: inline-block;
+	width: 55px;
+	height: 72px;
+}
+.body_main_right_box a i:nth-child(1){
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 35px;
+    color: #4f4b4b;
+}
+.body_main_right_box a i:nth-child(2){
+	display: block;
+    color: #4f4b4b;
+    margin-left: 7px;
+}
+.body_main_right_box a:hover i{
+	color: red;
+}
+.body_main_right_coupon{
+/*	margin-top: 5px;
+	height: 50px;*/
 }
 /*body main end*/
 /*body end*/
