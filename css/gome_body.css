@@ -23,7 +23,7 @@
 }
 .body_title_left_nav_list{
 	/*height: 450px;*/
-	padding: 5px 15px;
+	padding: 2px 15px 0;
 	background-color: #707070;
 	color: #fff;
 	font-size: 14px;
@@ -40,6 +40,9 @@
 .body_title_middle a{
 	display: inline-block;
 	margin: 0 10px;
+}
+.body_title_middle a:hover{
+	color: red;
 }
 .body_title_middle a i{
 	display: inline-block;
@@ -94,4 +97,96 @@
 }
 /*body title right end*/
 /*body title end*/
+/*body main start*/
+.body_main{
+	/*border: 1px solid red;*/
+}
+.body_main_focus_left{
+	position: absolute;
+	top: 0;
+	left: -300px;
+}
+.body_main_focus_right{
+	position: absolute;
+	top: 0;
+	right: -300px;
+}
+.body_main_banner{
+	width: 750px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	overflow: hidden;
+}
+.body_main_banner_list{
+	width: 6010px;
+}
+.body_main_banner_list li{
+	float: left;
+}
+.body_main_banner > img{
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+.body_main_right{
+	width: 250px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*background-color: red;*/
+}
+.body_main_banner_arrow_left, .body_main_banner_arrow_right{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	right: 45px;
+	margin-top: -40px;
+	background:rgba(0,0,0,0.2);
+}
+.body_main_banner_arrow_right{
+	right: 0;
+}
+.body_main_banner_arrow_left:hover, .body_main_banner_arrow_right:hover{
+	background:rgba(0,0,0,0.4);
+}
+.body_main_banner_arrow_left i, .body_main_banner_arrow_right i{
+	display: inline-block;
+	width: 40px;
+	height: 80px;
+	background: url(../images/ui1.png) no-repeat;
+	background-position: 0 -112px;
+}
+.body_main_banner_arrow_right i{
+	background-position: -42px -112px;
+}
+.body_main_banner_btn{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -160px; 
+}
+.body_main_banner_btn li{
+	float: left;
+	width: 30px;
+	height: 13px;
+	margin: 0 5px;
+}
+.body_main_banner_btn li a{
+	/*display: inline-block;*/ /*inline-block为什么会掉下去*/
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: rgba(0,0,0,0.4);
+}
+.body_main_banner_btn li:nth-child(1) a{
+	background-color: red;
+}
+.body_main_banner_btn li a:hover{
+	background-color: red;
+}
+/*body main end*/
 /*body end*/

@@ -487,6 +487,7 @@
     line-height: 100px;
     box-shadow: 0 0 10px 1px #eee;
     background-color: #fff;
+    z-index: 2;
 }
 .head .h_shopbox .shopbox_down a{
 	color: #000;
