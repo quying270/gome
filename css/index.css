@@ -8,7 +8,7 @@
 	line-height: 30px;
 	background-color: rgb(248,248,248);
 	color: rgb(136,136,136);
-	/*border-bottom: 1px solid #eee;*/
+	border-bottom: 1px solid #eee;
 }
 .content_dn{
 	display: none;
@@ -51,7 +51,7 @@
 	border-right: 1px solid transparent);*/
 	position: relative;
     z-index: 3;
-    /*border-bottom: 1px solid #fff;*/
+    border-bottom: 1px solid #eee;
 }
 .top .t_left > ul>:first-child a i[class='arrow'], .top .t_right ul li > span a i[class='arrow']{
 	display: inline-block;
