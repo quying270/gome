@@ -1,10 +1,13 @@
 @charset 'UTF-8';
 /*body start*/
 .body{
+}
+/*body title start*/
+.body_title_bg{
+	height: 41px;
 	background-color: rgb(248,248,248);
 	border-bottom: 1px solid #DD00A7;
 }
-/*body title start*/
 .body_title{
 	font-size: 15px;
 	height: 41px;
@@ -210,22 +213,23 @@
 /*body main start*/
 .body_main{
 	/*border: 1px solid red;*/
+	height: 450px;
 }
 .body_main_focus_left{
 	position: absolute;
-	top: 1px;
+	top: 0;
 	left: -300px;
 }
 .body_main_focus_right{
 	position: absolute;
-	top: 1px;
+	top: 0;
 	right: -300px;
 }
 .body_main_banner{
 	width: 750px;
 	height: 450px;
 	position: absolute;
-	top: 1px;
+	top: 0;
 	left: 200px;
 	overflow: hidden;
 }
@@ -375,4 +379,22 @@
 	font-weight: bold;
 }
 /*body main end*/
+/*body sale start*/
+.body_sale{
+	height: 450px;
+}
+.body_sale_focus_left{
+	position: absolute;
+	top: 0;
+	left: -300px;
+}
+.body_sale_focus_right{
+	position: absolute;
+	top: 2px;
+	right: -300px;
+}
+.body_sale_msg  > ul >li{
+	float: left;
+}
+/*body sale end*/
 /*body end*/
