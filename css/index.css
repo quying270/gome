@@ -18,7 +18,7 @@
 	top: 30px;
 	border: 1px solid #eee;
 	background-color: #fff;
-	z-index: 2;
+	z-index: 4;
 }
 .top .t_left > ul > li:hover span, .top .t_right > ul > li:hover span{
 	background-color: #fff;
