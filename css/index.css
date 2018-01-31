@@ -51,7 +51,7 @@
 	border-right: 1px solid transparent);*/
 	position: relative;
     z-index: 5;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid transparent;
 }
 .top .t_left > ul>:first-child a i[class='arrow'], .top .t_right ul li > span a i[class='arrow']{
 	display: inline-block;
@@ -181,6 +181,7 @@
 .top .t_right ul li > span a .iconfont{
 	color: #DD00A7;
 	margin-right: 3px;
+	font-size: 15px;
 }
 .top .t_right .my_gome{
 	width: 260px;
