@@ -29,7 +29,7 @@
 .top .t_left > ul > li:hover > span a, .top .t_left > ul > li:hover > a, .top .t_right > ul > li:hover > span a, .top .t_right > ul > li:hover > a{
 	color:red;
 }
-.top .t_left > ul li:hover i[class='arrow'], .top .t_right > ul li:hover i[class="arrow"]{
+.top .t_left > ul li:hover a i[class='arrow'], .top .t_right > ul li:hover a i[class="arrow"]{
 	background-position: -58px -455px;
 }
 .top .t_left > ul li:hover .content_dn, .top .t_right > ul li:hover .content_dn{
@@ -50,7 +50,7 @@
 /*	border-left: 1px solid transparent;
 	border-right: 1px solid transparent);*/
 	position: relative;
-    z-index: 3;
+    z-index: 5;
     border-bottom: 1px solid #eee;
 }
 .top .t_left > ul>:first-child a i[class='arrow'], .top .t_right ul li > span a i[class='arrow']{
