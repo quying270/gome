@@ -615,6 +615,30 @@
 	font-size: 20px;
 	color: #ccc;
 }
+.body_finance_bottom_l p{
+	width: 73px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 13px;
+	position: absolute;
+	left: 60px;
+	bottom: 48px;
+	border-radius: 2px;
+	background-color: #b88828;
+	color: #fff;
+	font-size: 14px;
+}
+.body_finance_bottom_l p a:hover{
+	text-decoration: underline;
+}
+.body_finance_bottom_l p i{
+	display: inline-block;
+	width: 7px;
+	height: 11px;
+	margin-left: 5px;
+	vertical-align: middle;
+	background: url(../images/ui1.png) -126px -52px no-repeat;
+}
 .body_finance_bottom_r{
 	border: 1px solid #e6e6e6;
 	border-left: none;
