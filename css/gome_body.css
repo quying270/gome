@@ -106,11 +106,12 @@
 	padding: 5px 0;
 }
 .body_title_left_nav_list_center_title_list dt{
-	width: 67px;
+	width: 62px;
 	height: 22px;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 	opacity: 0.8;
+	overflow: hidden;
 }
 .body_title_left_nav_list_center_title_list dd{
 	width: 681px;
@@ -120,7 +121,7 @@
 }
 .body_title_left_nav_list_center_title_list dd a{
 	width: 700px;
-	padding: 0 6px;
+	padding: 0 5px;
 	border-left: 1px solid #eee;
 }
 .body_title_left_nav_list_center_title_list dd a:hover{
@@ -128,6 +129,7 @@
 }
 .body_title_left_nav_list_center_img{
 	float: right;
+	position: relative;
 	width: 200px;
 	height: 450px;
 	background-color: #fff;
@@ -144,7 +146,9 @@
 	text-align: center;
 }
 .body_title_left_nav_list_center_img_bottom{
-	padding-top: 40px;
+	position: absolute;
+    bottom: 0;
+    left: 5px;
 }
 /*body title left end*/
 /*body title middle start*/

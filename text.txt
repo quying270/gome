@@ -2,3 +2,7 @@
 
 
 https://www.gome.com.cn
+
+a(>img[src=images/body_title_left_nav_list13_center_img_top$.jpg])*6
+
+a(>img[src=images/body_title_left_nav_list4_center_img_top$.jpg])*8
