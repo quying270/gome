@@ -752,6 +752,7 @@
 .body_topic_bottom ul li{
 	float: left;
 	width: 306px;
+	height: 340px;
 	margin-right: 12px;
 	background-color: #fff;
 }
@@ -834,6 +835,7 @@
 }
 .body_topic_right_bottom{
 	/*text-align: center;*/
+	height: 310px;
 	background-color: #fff;
 }
 .body_topic_right_bottom{
