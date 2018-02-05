@@ -794,9 +794,10 @@
 }
 .body_topic_bottom_content{
 	/*height: 124px;*/
-	padding: 20px 20px;
+	padding: 20px 20px 0px;
 }
 .body_topic_bottom_content{
+	height: 100px;
 	font-size: 12px;
 	color: #5e5e5e;
 }
@@ -815,18 +816,23 @@
 .body_topic_bottom_content span{
 	margin-right: 40px;
 }
-.assist i{
+.body_topic_bottom_b{
+	color: #5e5e5e;
+}
+.assist i, .discuss i{
 	display: inline-block;
 	width: 20px;
-    height: 20px;
+	margin-left: 15px;
     vertical-align: middle;
+	font-size: 12px;
+}
+.assist i{
+    height: 20px;
+    margin-left: 20px;	
 	background: url("../images/assist.png") no-repeat;
 }
 .discuss i{
-	display: inline-block;
-	width: 20px;
     height: 18px;
-    vertical-align: middle;
 	background: url("../images/discuss.png") no-repeat;
 }
 .body_topic_right{
@@ -898,11 +904,11 @@
 	width: 218px;
 	height: 38px;
 	line-height: 38px;
-	font-size: 20px;
 	color: #000;
 }
 .body_floor_top_left h3{
 	font-weight: normal;
+	font-size: 20px;
 }
 .body_floor_top_right{
 	float: right;
@@ -1391,5 +1397,89 @@
     margin-top: 15px; 
 	border-top: 1px solid #dd00a7;
     background: #f7f7f7;
+}
+.foot_top{
+	width: 100%;
+	height: 90px;
+	margin-top: 30px;
+}
+.foot_top_box{
+	float: left;
+	height: 90px;
+	margin-right: 110px;
+}
+.foot_top_box i{
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background: url("../images/ui.png") no-repeat 0 -135px;
+}
+.foot_top_box p{
+	float: left;
+}
+.foot_top_box p span{
+	display: block;
+	line-height: 25px;
+	font-size: 16px;
+	color: #333;
+}
+.foot_top_box p a{
+	color: #999;
+}
+.foot_top_box p a:hover{
+	color:red;
+}
+.foot_top_box2 i{
+	background-position: -45px -135px;
+}
+.foot_top_right{
+	float: right;
+	color: #999;
+}
+.foot_top_right span{
+	float: left;
+}
+.foot_top_right em{
+	font-style: normal;
+}
+.foot_top_right i{
+	display: block;
+	width: 40px;
+    height: 25px;
+	background: url("../images/ui.png") no-repeat;
+}
+.foot_top_right_wx i{
+	background-position: -105px -135px;
+}
+.foot_top_right_sj i{
+	background-position: -185px -135px;
+}
+.foot_top_right_wx, .foot_top_right_sj{
+	margin-right: 35px;
+}
+.foot_top_right_gome a{
+	display: block;
+}
+.foot_middle{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.foot_middle_title{
+	line-height: 1.8;
+}
+.foot_middle_title > a{
+	margin-right: 10px;
+	color: #666;
+}
+.foot_middle_title > span{
+	margin-right: 10px;
+	color: #999;
+}
+.foot_middle_title > p{
+	color: #999;
+}
+.foot_middle_title a:hover{
+	color: red;
 }
 /*foot end*/

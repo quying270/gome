@@ -3,6 +3,6 @@
 
 https://www.gome.com.cn
 
-a(>img[src=images/body_title_left_nav_list13_center_img_top$.jpg])*6
 
-a(>img[src=images/body_title_left_nav_list4_center_img_top$.jpg])*8
+a(>img[src=images/body_title_left_nav_list12_center_img_top$.jpg][width=70px][height=35px])*8
+a(>img[src=images/body_title_left_nav_list13_center_img_top$.jpg][width=70px][height=35px])*6
