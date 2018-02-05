@@ -1111,6 +1111,9 @@
 .body_floor_ten_left ul li:nth-child(1) a img, .body_floor_ten_right ul li:nth-child(1) a img{
 	margin-top: 0px;
 }
+.body_floor_ten_c_bottom a:hover{
+	text-decoration: underline;
+}
 .body_floor_ten_c_bottom_t{
 	height: 35px;
 	line-height: 35px;
@@ -1142,3 +1145,75 @@
 /*body floor tne end*/
 /*body floor end*/
 /*body end*/
+/*help start*/
+.help{
+	height: 70px;
+	margin-top: 30px;
+	background-color: #f0f0f0;
+}
+.help_title ul li{
+	float: left;
+	width: 33%;
+	line-height: 70px;
+	text-align: center;
+	font-size: 18px;
+	color: #404040;
+}
+.help_title_b{
+	font-weight: bold;
+}
+.help_title_b i {
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+    background: url("../images/ui.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.help_title ul li:nth-child(1) .help_title_b i{
+	background-position: 0 -1469px;
+}
+.help_title ul li:nth-child(2) .help_title_b i{
+	background-position: -40px -1469px;
+}
+.help_title ul li:nth-child(3) .help_title_b i{
+	background-position: -80px -1469px;
+}
+.help_title a:hover{
+	color: #f5004b;
+}
+.help_title ul li span{
+    display: inline-block;
+    width: 3px;
+    height: 6px;
+	margin: 0 16px;
+    background: url("../images/ui.png");
+    background-position: -120px -1489px;
+    color: #ccc;
+}
+.help_content{
+	height: 150px;
+}
+.help_content dl{
+	float: left;
+	width: 9%;
+	margin: 15px 75px 0 57px;
+}
+.help_content dl dt{
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #5e5e5e;
+}
+.help_content dl dd{
+	font-size: 12px;
+	color: #a5a5a5;
+}
+.help_content dl dd ul li{
+	height: 22px;
+	line-height: 22px;
+}
+.help_content dl dd ul li a:hover{
+	color: red;
+}
+/*help end*/
