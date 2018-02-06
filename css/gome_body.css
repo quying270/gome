@@ -981,7 +981,7 @@
 }
 .body_floor_bottom_right_l_center ul li{
 	float: left;
-	/*width: 122px;*/
+	width: 122px;
 	height: 50px;
     line-height: 50px;
     text-align: center;
@@ -1317,6 +1317,63 @@
 	background-color: #62c8a3;
 }
 /*body floor tne end*/
+.body_floor_side_nav{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -268px;
+	margin-left: -678px;
+	line-height: 1.5;
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	color: #5e5e5e;
+	text-align: center;
+}
+.body_floor_side_nav > p{
+	padding: 4px 9px;
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #e6e6e6;
+	font-weight: bold;
+}
+.body_floor_side_nav ul li{
+	position: relative;
+	padding: 4px 9px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.body_floor_side_nav ul li:hover{
+	color: #f5004b;
+}
+.body_floor_side_nav ul li:hover > i{
+	display: block;
+}
+.body_floor_side_nav ul li > i{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0px;
+	height: 0px;
+	border: 5px solid transparent;
+	border-top-color: #f5004b;
+	border-left-color: #f5004b;
+}
+.body_floor_side_nav_up a, .body_floor_side_nav_down a{
+	display: block;
+	width: 17px;
+	height: 9px;
+	margin: 5px auto;
+	background: url("../images/ui1.png") -216px -52px no-repeat;
+}
+.body_floor_side_nav_up:hover a{
+	background-position: -216px -78px;
+}
+.body_floor_side_nav_down a{
+	background-position: -216px 0px;
+}
+.body_floor_side_nav_down:hover a{
+	background-position: -216px -26px;
+}
 /*body floor end*/
 /*body end*/
 /*help start*/
