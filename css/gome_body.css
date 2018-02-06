@@ -1477,6 +1477,7 @@
 }
 .body_hot_left_bottom_r ul li a img{
 	float: left;
+	margin-left: 10px;
 }
 .body_hot_left_bottom_r ul li a p{
 	float: left;
@@ -1498,9 +1499,6 @@
     font-size: 14px;
     color: red;
 }
-.body_hot_left_bottom_r ul li a img{
-	margin-left: 10px;
-}
 .body_hot_right{
 	float: right;
 	width: 361px;
@@ -1512,6 +1510,34 @@
 }
 .body_hot_right_bottom ul li:nth-child(1){	
 	border-bottom: 1px dashed #eee;
+}
+.body_hot_right_bottom ul li a{
+	display: inline-block;	
+    padding-top: 30px;
+}
+.body_hot_right_bottom ul li a img{
+	float: left;
+	margin-left: 30px;
+}
+.body_hot_right_bottom ul li a p{
+	float: left;
+	margin-left: 20px;
+	font-size: 12px;
+    line-height: 1.5;
+    color: #888;
+    width: 120px;
+    overflow: hidden;
+}
+.body_hot_right_bottom ul li a span{
+	display: block;
+}
+.body_hot_right_bottom ul li a .body_hot_right_bottom_title{
+	font-size: 16px;
+	color: #404040;
+}
+.body_hot_right_bottom ul li a .body_hot_right_bottom_price{
+	font-size: 16px;
+	color: red;
 }
 /*body hot end*/
 /*body end*/
