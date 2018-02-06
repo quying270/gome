@@ -1393,7 +1393,7 @@
 /*help end*/
 /*foot start*/
 .foot{
-	height: 270px;
+	/*height: 270px;*/
     margin-top: 15px; 
 	border-top: 1px solid #dd00a7;
     background: #f7f7f7;
@@ -1437,26 +1437,54 @@
 	float: right;
 	color: #999;
 }
-.foot_top_right span{
+.foot_top_right div{
 	float: left;
 }
 .foot_top_right em{
 	font-style: normal;
 }
-.foot_top_right i{
+.foot_top_right_wx > i, .foot_top_right_sj > i{
 	display: block;
 	width: 40px;
     height: 25px;
 	background: url("../images/ui.png") no-repeat;
 }
-.foot_top_right_wx i{
+.foot_top_right_wx > i{
 	background-position: -105px -135px;
 }
-.foot_top_right_sj i{
+.foot_top_right_sj > i{
 	background-position: -185px -135px;
 }
 .foot_top_right_wx, .foot_top_right_sj{
+	position: relative;
 	margin-right: 35px;
+}
+.foot_top_right_hover{
+	display: none;
+	position: absolute;    
+	bottom: 55px;
+    left: -65px;
+    z-index: 1;
+	/*width: 165px;
+	height: 80px;*/
+	padding: 10px;
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+.foot_top_right_hover i{
+	position: absolute;
+	left: 75px;
+    bottom: -6px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #eee;
+	border-left: none;
+	border-top: none;
+	background-color: #fff;
+	transform:rotate(45deg)
+}
+.foot_top_right_wx:hover .foot_top_right_hover, .foot_top_right_sj:hover .foot_top_right_hover{
+	display: block;
 }
 .foot_top_right_gome a{
 	display: block;
@@ -1466,7 +1494,7 @@
 	border-bottom: 1px solid #e6e6e6;
 }
 .foot_middle_title{
-	line-height: 1.8;
+	line-height: 1.9;
 }
 .foot_middle_title > a{
 	margin-right: 10px;
@@ -1481,5 +1509,45 @@
 }
 .foot_middle_title a:hover{
 	color: red;
+}
+.foot_bottom{
+	margin: 10px 0 30px;
+	color: #999;
+}
+.foot_bottom ul li{
+	float: left;
+}
+.foot_bottom ul li i{
+	float: left;
+	width: 35px;
+	height: 35px;
+	background: url("../images/ui.png") 0 -180px;
+}
+.foot_bottom ul li:nth-child(2) i{
+	background-position: -35px -180px;
+}
+.foot_bottom ul li:nth-child(3) i{
+	background-position: -70px -180px;
+}
+.foot_bottom ul li:nth-child(4) i{
+	background-position: -105px -180px;
+}
+.foot_bottom ul li:nth-child(5) i{
+	background-position: -140px -180px;
+}
+.foot_bottom ul li:nth-child(6) i{
+	background-position: -175px -180px;
+}
+.foot_bottom ul li span{
+	float: left;
+    width: 60px;
+    margin-right: 35px;
+}
+.foot_bottom ul li:nth-child(3) span, .foot_bottom ul li:nth-child(5) span{
+	height: 35px;
+	line-height: 35px;
+}
+.foot_bottom ul li:nth-child(6) span{
+	width: 110px;
 }
 /*foot end*/
