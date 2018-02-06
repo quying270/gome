@@ -1130,6 +1130,38 @@
 	left: -274px;
 }
 /*body floor four end*/
+/*body life start*/
+.body_life{
+	/*height: 317px;*/
+	margin-top: 30px;
+}
+.body_life h3{
+	height: 38px;
+	line-height: 38px;
+	font-weight: normal;
+    font-size: 20px;
+}
+.body_life_bottom{
+	height: 249px;
+}
+.body_life_bottom ul li{
+	float: left;
+}
+.body_life_bottom > ul > li{
+	float: left;
+	margin-right: 8px;
+}
+.body_life_bottom > ul > li:nth-child(4){
+	margin-right: 0;
+}
+.body_life_bottom_b{
+	padding: 0 14px;
+	border: 1px solid #eee;
+}
+.body_life_bottom_b li{
+	padding: 10px 6px;
+}
+/*body life end*/
 /*body floor five start*/
 .body_floor_five_top{
 	border-bottom: 1px solid rgb(232, 92, 197);
