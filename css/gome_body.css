@@ -1375,17 +1375,126 @@
 	background-position: -216px -26px;
 }
 /*body floor end*/
+/*body hot start*/
+.body_hot{
+	margin-top: 30px;
+}
+.body_hot_left{
+	float: left;
+	width: 830px;
+	/*height: 400px;*/
+}
+.body_hot_top{
+	height: 35px;
+	line-height: 33px;
+}
+.body_hot_top_l{
+	float: left;
+}
+.body_hot_top_l span{
+	height: 33px;
+	font-size: 18px;
+	color: #333;
+}
+.body_hot_top_l span + span{
+	margin-left: 5px;
+    font-size: 20px;
+    color: #ccc;
+}
+.body_hot_top_r{
+	float: right;
+	margin-right: 12px;
+    font-size: 12px;
+    color: #888;
+}
+.body_hot_top_r a span{
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    margin-left: 3px;
+    background: url("../images/ui1.png") no-repeat -123px -126px;
+}
+.body_hot_top_r a:hover{
+	color: red;
+}
+.body_hot_bottom{
+	height: 338px;
+	border: 1px solid #eee;
+}
+.body_hot_left_bottom_l{
+	float: left;
+	position: relative;
+	width: 280px;
+	height: 339px;
+	border-right: 1px solid #eee;
+	text-align: center;
+}
+.body_hot_left_bottom_l a img{
+	margin: 30px 0;
+}
+.body_hot_left_bottom_l a i{
+	position: absolute;
+	width: 72px;
+    height: 72px;
+    left: 20px;
+    top: 20px;
+    background: url("../images/ui1.png") no-repeat -52px 0;
+}
+.body_hot_left_bottom_l a p{
+    margin-left: 20px;
+    line-height: 24px;
+    width: 240px;
+    height: 24px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #404040;
+}
+.body_hot_left_bottom_l a p + p{
+	color: red;
+}
+.body_hot_left_bottom_l:hover a p{
+	color: red;
+}
+.body_hot_left_bottom_r{
+	float: left;
+}
+.body_hot_left_bottom_r ul li{
+	float: left;
+	width: 273px;
+	height: 169px;
+}
+.body_hot_left_bottom_r ul:nth-child(1) li{
+    border-bottom: 1px dashed #eee;
+}
+
+.body_hot_left_bottom_r ul:nth-child(1) li:nth-child(1), .body_hot_left_bottom_r ul:nth-child(2) li:nth-child(1){
+    border-right: 1px dashed #eee;
+}
+.body_hot_right{
+	float: right;
+	width: 361px;
+	/*height: 400px;*/
+}
+.body_hot_right_bottom ul li{	
+	height: 169px;
+}
+.body_hot_right_bottom ul li:nth-child(1){	
+	border-bottom: 1px dashed #eee;
+}
+/*body hot end*/
 /*body end*/
 /*help start*/
 .help{
 	margin-top: 30px;
+}
+.help_title{
+	background-color: #f0f0f0;
 }
 .help_title ul li{
 	float: left;
 	width: 33%;
 	height: 70px;
 	line-height: 70px;
-	background-color: #f0f0f0;
 	text-align: center;
 	font-size: 18px;
 	color: #404040;
