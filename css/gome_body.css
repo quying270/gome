@@ -1146,6 +1146,7 @@
 }
 .body_life_bottom ul li{
 	float: left;
+	position: relative;
 }
 .body_life_bottom > ul > li{
 	float: left;
@@ -1153,6 +1154,27 @@
 }
 .body_life_bottom > ul > li:nth-child(4){
 	margin-right: 0;
+}
+.body_life_bottom_pos{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 294px;
+	height: 112px;
+	padding-top: 40px;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.body_life_bottom_pos span:nth-child(1){
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.body_life_bottom_pos p{
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
 }
 .body_life_bottom_b{
 	padding: 0 14px;
